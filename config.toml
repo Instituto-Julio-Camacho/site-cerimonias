@@ -13,12 +13,12 @@ theme = "hugo-hero-theme"
   google_analytics_id=""
 
   [params.logo]
-    mobile = "images/logo-mobile.svg"
+    mobile = "logo-lateral-text.png"
     mobile_height = "36px"
     mobile_width = "36px"
-    desktop = "images/logo.svg"
+    desktop = "logo-instituto-no-text.png"
     desktop_height = "29px"
-    desktop_width = "217px"
+    desktop_width = "80px"
     alt = "Hugo Hero"
 
   [params.homepage_meta_tags]
@@ -33,30 +33,15 @@ theme = "hugo-hero-theme"
     meta_twitter_creator = "@zerostaticio"
 
 [[menu.main]]
-	name = "Services"
-	url = "/services/"
+    name = "Sobre"
+    url = "/sobre/"
     weight = 1
 
 [[menu.main]]
-    name = "Work"
-    url = "/work/"
+    name = "Contato"
+    url = "/contato/"
     weight = 2
 
-[[menu.main]]
-    name = "About"
-    url = "/about/"
-    weight = 3
-
-[[menu.main]]
-    name = "History"
-    url = "/history/"
-    weight = 3
-
-[[menu.main]]
-    name = "Contact"
-    url = "/contact/"
-    weight = 4
-
 [permalinks]
-  post = "/:year/:month/:day/:slug/"
+  post = "/:slug/"
   pages = "/:filename/"
